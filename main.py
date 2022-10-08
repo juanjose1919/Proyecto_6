@@ -7,7 +7,7 @@ from PIL import Image
 page_bg_img = """
 <style>
 [data-testid="stAppViewContainer"]{
-background-image: url("https://wallpaperaccess.com/full/931263.jpg");
+background-image: url("https://p4.wallpaperbetter.com/wallpaper/286/495/802/black-background-glass-monochrome-photography-wallpaper-preview.jpg");
 background-size: cover;
 }
 
@@ -245,8 +245,8 @@ st.markdown(f'<h1 style="color:#CB4335 ;font-size:25px;">{"¿El dataset sin la v
 hist = Image.open('hist.png')
 st.image(hist, width=600)
 
-st.markdown(f'<h1 style="text-align: center; color:#000000 ;font-size:20px;">{"Pvalor=4.509462445228134e-66, Normalidad=False"}</h1>', unsafe_allow_html=True)
-st.markdown(f'<h1 style="text-align: center; color:#000000 ;font-size:20px;">{"Al analisar los datos sin la variable objetivo se rechaza la hipotesis nula, con un p-value menor a 0.05, se concluye que sin la variable objetivo el dataset no sigue una distribución normal multivariada."}</h1>', unsafe_allow_html=True)
+st.markdown(f'<h1 style="text-align: center; color:#FDFEFE ;font-size:20px;">{"Pvalor=4.509462445228134e-66, Normalidad=False"}</h1>', unsafe_allow_html=True)
+st.markdown(f'<h1 style="text-align: center; color:#FDFEFE ;font-size:20px;">{"Al analisar los datos sin la variable objetivo se rechaza la hipotesis nula, con un p-value menor a 0.05, se concluye que sin la variable objetivo el dataset no sigue una distribución normal multivariada."}</h1>', unsafe_allow_html=True)
 
 
 st.markdown(f'<h1 style="color:#CB4335 ;font-size:25px;">{"¿Cada una de las variables sigue una distribución normal?"}</h1>', unsafe_allow_html=True)
