@@ -7,7 +7,7 @@ from PIL import Image
 page_bg_img = """
 <style>
 [data-testid="stAppViewContainer"]{
-background-image: url("https://p4.wallpaperbetter.com/wallpaper/286/495/802/black-background-glass-monochrome-photography-wallpaper-preview.jpg");
+background-image: #FDFEFE;
 background-size: cover;
 }
 
