@@ -50,7 +50,7 @@ with st.sidebar:
 st.sidebar.markdown(f'<h1 style="text-align: center; color:#F4D03F ;font-size:30px;">{"FACULDAD DE ECONOMÍA"}</h1>', unsafe_allow_html=True)
 
 
-data = pd.read_csv('https://raw.githubusercontent.com/labeconometria/MLxE/main/proyectos2do/datasets3.csv')
+data = pd.read_csv('datasets3.csv')
 
 st.markdown(f'<<h1 style="text-align: center ;color:#2980B9 ;font-size:50px;">{"¿AGUA POTABLE?"}</h1>', unsafe_allow_html=True)
 
